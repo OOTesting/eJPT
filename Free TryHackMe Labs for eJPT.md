@@ -79,4 +79,3 @@ Reading materials is not enough if you want to pass this certification.
 	- Unbaked Pie: https://tryhackme.com/room/unbakedpie
 	- For Business Reasons: https://tryhackme.com/room/forbusinessreasons
 
-Good Luck, and make sure to give it a star, :)
