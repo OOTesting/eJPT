@@ -1,12 +1,12 @@
 # Enumeration
 ### Enumerating servers and services
-##### ***Note: the 10.10.10.10 IP address is used as an example here and you can change it to your desired IP address.*** 
+
 #### SMB:
  - Windows implementation of file share
  - Server Message Block
  - port 445
  - smb enumeration using Nmap Scripts
- - $ nmap -p 445 --script smb-protocols 10.10.10.10
+ - $ nmap -p 445 --script smb-protocols 10.10.10.10  ##### ***Note: the 10.10.10.10 IP address is used as an example
  - $ nmap -p445 --script smb-security-mode 10.10.10.10
  - $ nmap -p445 --script smb-enum-sessions 10.10.10.10
  - $ nmap -p445 --script smb-enum-sessions --script-args smbusername=administrator,smbpassword=smbserver_771 10.10.10.10
