@@ -4,5 +4,5 @@ I must give thanks to the following:
 
 tryhackme
 hackabox
-networkchuck[youtube]
+[networkchuck[youtube]](https://www.youtube.com/@NetworkChuck)
 
