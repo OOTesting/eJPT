@@ -2,6 +2,8 @@
 
 ## Passive Information Gathering
 
+Passive information gathering is the first stage of pen testing,below covers information collection from public and company wide system.
+
 - Website recon & footprinting
     - robots.txt
     - sitemap.xml
