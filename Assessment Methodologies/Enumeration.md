@@ -10,7 +10,7 @@
  - $ nmap -p445 --script smb-enum-sessions 10.10.10.10
  - $ nmap -p445 --script smb-enum-sessions --script-args smbusername=administrator,smbpassword=smbserver_771 10.10.10.10
  - enumerate shares --> $ nmap -p445 --script smb-enum-shares 10.10.10.10
- - $ nmap -p445 --script smb-enum-shares --script-args smbusername=administrator,smbpassword=smbserver_771 10.10.10.10 
+ - $ nmap -p445 --script smb-enum-shares --script-args smbusername=administrator,smbpassword=smbserver_771 10.10.10.10 (Lists available SMB shares)
  - enumerate users  --> $ nmap -p445 --script smb-enum-users --script-args smbusername=administrator,smbpassword=smbserver_771 10.10.10.10 
  - check the Nmap Scripts documentation for more SMB scripts that can be useful for penetration testing
  - tool used - SMBMap
@@ -21,7 +21,7 @@
  - $ smbmap -H 10.10.10.10 -u administrator -p smbserver_771 --download 'c$\flag.txt'
 
 #### SMB - Samba
-- Samba is the SMB version of the Linux
+- Samba is the SMB version of the Linux and is aslo on port 445.
 - can also use Metasploit  by using --> auxiliary(scanner/smb/smb_version)
 - connect via smbclient and rpcclient --> These tools are preinstalled in Kali Linux
 - enum4linux  --> great tool
