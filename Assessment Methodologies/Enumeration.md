@@ -3,10 +3,9 @@
 
 #### SMB:
  - Windows implementation of file share
- - Server Message Block
- - port 445
+ - Server Message Block - Server Message Block (SMB) is a network protocol primarily used for file sharing, printer sharing, and inter-process communication between nodes on a network and is on port 445
  - smb enumeration using Nmap Scripts
- - $ nmap -p 445 --script smb-protocols 10.10.10.10  ##### ***Note: the 10.10.10.10 IP address is used as an example
+ - $ nmap -p 445 --script smb-protocols 10.10.10.10  ##### ***Note: the 10.10.10.10 IP address is used as an example (Provides a dialect host supports, such as Win XP, Win 2003, - NT LM 0.12 (SMBv1), 2.02 (SMBv2)&  2.10 (SMBv2.1) )
  - $ nmap -p445 --script smb-security-mode 10.10.10.10
  - $ nmap -p445 --script smb-enum-sessions 10.10.10.10
  - $ nmap -p445 --script smb-enum-sessions --script-args smbusername=administrator,smbpassword=smbserver_771 10.10.10.10
